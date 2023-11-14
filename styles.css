@@ -1,0 +1,280 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    background-color:grey ;
+    color: whitesmoke;
+    background-image: url(../images/blue-aesthetic.jpg);
+    background-attachment: fixed;
+    background-position: center;
+
+   
+}
+/*Header------------------------------------------------------*/
+/* Links-------------------------------------------------------- */
+a,
+a:visited { 
+	background-color: rgb(88, 125, 199)   ;
+	color: whitesmoke;
+    font-size: 1.5rem;
+    text-decoration: none;
+
+}
+
+    a:hover,
+a:focus,
+a:active {
+	text-decoration: none;
+    background-color: whitesmoke;
+    color: rgb(80, 125, 199);
+    border-radius: 20%;
+}
+
+/* Nav Bar-------------------------------------------------------*/
+    .site-wrapper {
+	background-color: rgb(80, 125, 199);
+    margin: 1rem ;
+    padding: 1rem ;
+    
+    }   
+
+    ul {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        margin:0 auto;
+        padding:1rem;
+    }
+
+    li {
+        list-style: none;
+        
+        
+    }
+  
+
+    /*Main------------------------------------------------------*/
+    /*h1-------------------------------------------------------------*/
+
+    h1,
+    h2,
+    h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: .5em 0;
+	font-size: 2rem;
+    font-weight: bold;
+    }
+    @media(min-width: 40em){
+        h1{
+            font-size: 4rem;
+        }
+
+    }
+
+    .section-h1 {
+        background-image: url(../images/high-tech-background.jpg);
+        background-size: contain;
+        background-position: center;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        min-width: 200px;
+        height: 40vh;
+        
+        
+    }
+
+    /*.h1-bigger {
+        font-weight: normal;
+        font-size: 4rem;
+        
+    }*/
+
+    .h1-bigger:hover {
+        color: rgb(80, 125, 199) ;
+        
+    }
+
+ /*About Section------------------------------------------------------ */  
+        #section-about {
+            width: 100%;
+            border-bottom: 0.1rem solid rgb(80, 125, 199);
+            padding: 1rem;
+        
+        }
+
+        #robot-waving {
+            display: flex;
+            justify-content: center;
+            border-radius:30% ;
+            width: 15%;
+            height: 10%;
+            box-shadow: 0 5px 5px rgba(243, 237, 237, 0.5);
+            margin: 1rem 2.5rem 3rem 0;  
+        }
+
+        
+        #section-about p {
+            width: 80%;
+        }
+    
+
+/* Projects/works----------------------------------------  Section*/
+   
+     #section-projects img {      
+        width: 15.625rem;
+        border-bottom: .1rem solid rgb(222, 220, 220);
+        border-top-left-radius: 1rem;
+        border-top-right-radius: 1rem;
+            
+     }
+     
+     #section-projects {
+        width: 100%;
+        border-bottom: 0.1rem solid rgb(80, 125, 199);
+        padding:  5rem;
+     }
+
+     #section-projects h2 {
+        text-align: center;
+        
+     }
+
+     .coming-soon {
+        flex-direction: row;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        justify-content: center;
+        width: 100%;
+        padding: 1rem;
+     }
+
+        article:hover{
+            color: gray;
+
+        }
+     
+     #section-projects article{
+        border: .1rem solid rgb(222, 220, 220);
+        width:fit-content;
+        list-style: none;
+        box-shadow: 0 5px 5px rgba(224, 213, 213, 0.45);
+        border-radius: 1rem;
+        margin: 2rem 3rem;
+        background-color: darkblue;
+        text-align: center;
+     }
+
+     @media (min-width: 40em){
+        h2{
+            font-size: 2rem;
+        } 
+        #section-about,
+        #section-projects
+        {
+            padding: 1rem 1rem;
+        }
+        #section-about p{
+            font-size: 1.3rem;
+            width: 75%;
+        }
+        #section-about div{
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            margin-right: 2rem;
+        }
+        #section-about { 
+            padding: 5rem;
+        
+        }
+
+
+        .h1-bigger {
+            font-weight: normal;
+            font-size: 4rem;
+    }   
+}
+
+/* Contact Section */
+    .section-contact  {
+        font-size: 3rem;
+        background-color: rgb(80, 125, 199);
+        padding: 1rem 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    span {
+        background-color:rgb(80, 125, 199);
+        color: whitesmoke;
+        font-size: 5rem;
+        
+    }
+
+    @media (min-width: 40em){
+        .social-media p {
+            font-size: 2rem;
+        }
+    }
+    
+    
+
+    
+/* Footer ----------------------------------------------*/
+    .ending {
+        background-color: grey;
+        text-align: center;
+        margin: 0;
+        height: 8vh;
+        font-size: 2rem;
+    }
+
+    .social-media {
+        text-align: center; 
+        padding: 2rem 1rem 1rem;
+        background-color: grey;
+    }
+
+    .fa {  
+        padding: 20px;  
+      text-align: center;  
+        margin: 5px 2px;  
+        font-size: 30px;  
+        width: 50px;  
+      }  
+        .fa-facebook {    
+        color: white;
+        background-color: grey;
+        font-size: 2rem;  
+      } 
+
+      .fa-instagram {  
+        background: grey;  
+        color: white; 
+      }
+
+      .fa-linkedin {  
+        background: grey;  
+        color: white; 
+      }
+    
+      .fa-github {  
+        background: grey;  
+        color: white; 
+      }
+
+      @media(min-width: 40em){
+        footer a {
+            font-size: 2rem;
+        }
+    }
+
+    .social-media a,
+    .social-media {
+background-color: grey;
+    }
+
